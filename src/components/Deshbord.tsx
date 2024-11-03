@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from './Card'
 import { useState ,useEffect } from 'react'
 
@@ -14,8 +13,6 @@ interface Card {
     img:string
     index:number
 }
-
-const a:string | undefined = ""
 
 function Deshbord(props: Props) {
     const [ allImg, setAllImg] = useState<Card[]>([
